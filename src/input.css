@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-facebook{
+        @apply border-gray-300 rounded-sm border w-full h-14 mb-2.5 pl-2;
+    }
+    .link-navbar{
+        @apply text-gray-300 hover:bg-gray-800 px-3 py-2 rounded-md text-sm font-medium;
+    }
+}
